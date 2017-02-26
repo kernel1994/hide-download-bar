@@ -1,0 +1,11 @@
+{
+  "name": "Hiden Download Bar",
+  "version": "0.1",
+  "description": "Hide the download bar at the bottom of Chrome when compeletd after 3 seconds.",
+  "permissions": [
+    "downloads", "downloads.shelf"
+  ],
+  "manifest_version": 2,
+  "background": { "persistent": false, "scripts": ["background.js"] },
+  "offline_enabled": true
+}
